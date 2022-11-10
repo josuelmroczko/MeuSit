@@ -1,0 +1,66 @@
+.topo{
+    text-align: center;
+    padding-top: o;
+}
+
+body{
+    background-image: linear-gradient(90deg,rgb(8, 3, 96),rgb(5, 38, 90),rgb(16, 2, 82),rgb(3, 1, 42),rgb(2, 31, 79),rgb(16, 2, 82),rgb(3, 1, 42),rgb(2, 35, 87),rgb(16, 2, 82));
+    color: aliceblue;
+    animation:colors 90s ease infinite ; 
+    background-size: 300% 300%;
+    
+}
+footer{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    
+    
+}
+.sair{
+    
+    color: rgb(253, 253, 253);
+    position: relative;
+    width: 40px;
+    left: 1300px;
+}
+.inicio{
+    text-align: center;
+    font-size: 20px;
+    text-decoration: underline
+    
+}
+button{
+    background-color: rgb(3, 3, 84);
+    border-radius: 5px;
+    padding: 5px 80px;
+}
+button:hover{
+    background-color: rgb(173, 179, 160);
+}
+.problemas{
+    list-style: none;
+    text-align: center;
+}
+a{color: aquamarine;
+}
+ul{
+    font-size: 20px;
+}
+
+
+
+@keyframes colors {
+    0%{
+background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+
+    }
+    100%{
+        background-position: 0% 50%;
+
+    }
+    
+}

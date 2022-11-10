@@ -1,0 +1,28 @@
+body{
+    background-color: aqua;
+
+}
+
+.conteiner{
+    background-color: rgba(10,23,55,0.5);
+
+    text-align: center;
+    position: absolute;
+    display: block;
+    padding: 10px 80px;
+    color: rgb(255, 255, 255);
+font-family: monospace; 
+   font-size: 25px;
+    margin-top: 10px;
+left: 50%;
+top:40%;
+transform: translate(-50%,-50% );
+border: 16px;
+border-radius: 10px;
+}
+input{
+    border-radius: 10px;
+}
+
+
+

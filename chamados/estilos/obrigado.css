@@ -1,0 +1,19 @@
+body{
+    background-image: url(.././imagens/espaço.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.obri{
+background-color: rgba(255, 255, 255, 0.4);
+position: absolute;
+left: 50%;
+top:40%;
+transform: translate(-50%,-50% );
+font-size: 24px;
+border-radius: 15px;
+}
+footer{
+    position: absolute;
+    bottom: 0;
+}

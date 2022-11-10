@@ -1,0 +1,66 @@
+body{
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+}
+.imagens{
+    
+    position: absolute;
+    width:940px;
+    margin: 0 auto;
+    left: 15%;
+    top: 30%;
+    padding: 5px;
+    
+    
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    color: aliceblue;
+    
+
+        
+}
+
+h1{
+    color: aliceblue;
+    text-align: center;
+
+}
+.gorjetas{
+   
+    
+    transition: ease 1s;
+   }
+  
+   footer{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+   }
+.port:hover {
+ background-color:white;
+ padding-bottom: 5%;
+ padding-top: 1%;
+ transition: ease 1s;
+ color: black ;
+ border-radius: 5px;
+}
+.descricao{
+    color: black;
+}
+@media screen and (max-width: 740px){
+    ul,.imagens {
+        list-style: none;
+    display:block;
+    justify-content: space-around;
+    text-align: center;
+    color: aliceblue;
+    
+    
+}
+
+}
